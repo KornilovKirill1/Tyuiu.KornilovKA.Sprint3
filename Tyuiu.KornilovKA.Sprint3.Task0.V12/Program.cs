@@ -17,7 +17,7 @@ namespace Tyuiu.KornilovKA.Sprint3.Task0.V12
             Console.Title = "Спринт #3 | Выполнил: Корнилов К. А. | ИИПб-23-1";
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* Спринт #3                                                               *");
-            Console.WriteLine("* Тема: Алгоритмы циклической структуры                                   *");
+            Console.WriteLine("* Тема: Оператор цикла for                                                *");
             Console.WriteLine("* Задание #0                                                              *");
             Console.WriteLine("* Вариант #12                                                             *");
             Console.WriteLine("* Выполнил: Корнилов Кирилл Андреевич | ИИПб-23-1                         *");
