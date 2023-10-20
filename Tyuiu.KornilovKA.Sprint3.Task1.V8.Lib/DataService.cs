@@ -10,13 +10,13 @@ namespace Tyuiu.KornilovKA.Sprint3.Task1.V8.Lib
 {
     public class DataService : ISprint3Task1V8
     {
-        public double GetMultiplySeries(double value, int startValue, int stopValue)
+        public double GetSumSeries(double value, int startValue, int stopValue)
         {
             double res = 0;
 
             while (startValue <= stopValue)
             {
-                res += Math.Pow(1 / (Math.Cos(startValue) + Math.Pow(value, startValue)), startValue);
+                res += Math.Pow(1.0 / (Math.Cos(startValue) + Math.Pow(value, startValue)), startValue);
                 startValue++;
             }
             return Math.Round(res, 3);

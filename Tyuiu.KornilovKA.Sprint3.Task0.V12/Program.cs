@@ -36,13 +36,13 @@ namespace Tyuiu.KornilovKA.Sprint3.Task0.V12
             int stopValue = Convert.ToInt32(Console.ReadLine());
 
             Console.Write("Введите значение T: ");
-            double t = Convert.ToDouble(Console.ReadLine());
+            int t = Convert.ToInt32(Console.ReadLine());
 
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
 
-            Console.WriteLine("Произведение ряда = " + ds.GetSumSeries(t, startValue, stopValue));
+            Console.WriteLine("Произведение ряда = " + ds.GetMultiplySeries(t, startValue, stopValue));
 
             Console.ReadKey();
         }

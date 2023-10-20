@@ -42,7 +42,7 @@ namespace Tyuiu.KornilovKA.Sprint3.Task2.V6
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
 
-            Console.WriteLine("Произведение ряда = " + ds.GetSumSeries(a, startValue, stopValue));
+            Console.WriteLine("Произведение ряда = " + ds.GetMultiplySeries(a, startValue, stopValue));
 
             Console.ReadKey();
         }
