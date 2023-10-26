@@ -9,7 +9,7 @@ namespace Tyuiu.KornilovKA.Sprint3.Task6.V22.Test
     public class DataServiceTest
     {
         [TestMethod]
-        public void TestMethod1()
+        public void ValidGetSumTheDivisors()
         {
             DataService ds = new DataService();
 
